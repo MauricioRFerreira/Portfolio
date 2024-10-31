@@ -19,36 +19,36 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #000000;
-    padding: 2rem;
+    padding: 1rem;
     position: fixed;
     width: 100%;
 }
 
 .titulo-header {
     color: #f4f0ea;
-    font-size: 2rem;
-    margin-left: 10rem;
+    font-size: 1.5rem;
+    margin-left: 5rem;
 }
 
 .titulo-header span {
-    color: #f9004d;
+    color: #ffd700;
 }
 
 .link-header {
     display: flex;
-    gap: 2rem;
-    margin-right: 10rem;
+    gap: 1rem;
+    margin-right: 5rem;
 }
 
 .link-header a {
     color: #f4f0ea;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     transition: 0.5s ease-in-out;
 }
 
 .link-header a:hover {
-    color: #f9004d;
+    color: #ffd700;
 }
 
 .container-sobre {
@@ -61,12 +61,12 @@ header {
 }
 
 .container-sobre h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 400;
 }
 
 .container-sobre h1 span {
-    color: #f9004d;
+    color: #ffd700;
 }
 
 .container-sobre p {
@@ -76,13 +76,13 @@ header {
 }
 
 .container-sobre p span {
-    color: #f9004d;
+    color: #ffd700;
 }
 
 .container-sobre img {
-    width: 900px;
-    height: 800px;
-    margin-top: 10rem;
+    width: 600px;
+    height: 600px;
+    margin-top: 6rem;
 }
 
 .container-main {
@@ -92,17 +92,17 @@ header {
     background-color: #000000;
     width: 100%;
     height: 100vh;
-    padding: 0 10rem;
+    padding: 0 5rem;
     gap: 20rem;
 }
 
 .container-main h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .container-main img {
-    width: 4000px;
-    height: 700px;
+    width: 3000px;
+    height: 500px;
     border-radius: 400px;
 }
 
@@ -113,7 +113,7 @@ header {
 
 .projects-section h2 {
     margin-bottom: 5rem;
-    color: #f9004d;
+    color: #ffd700;
     font-size: 50px;
 }
 
@@ -124,7 +124,7 @@ header {
 }
 
 .project-card {
-    border: 1px solid #ddd;
+    border: 1px solid #f4f0ea;
     border-radius: 8px;
     overflow: hidden;
     padding: 1rem;
@@ -143,25 +143,22 @@ header {
 
 .project-card p {
     font-size: 0.9rem;
-    color: #555;
+    color: #f4f0ea;
+    margin-bottom: 1rem;
 }
 
 .project-card a {
-    color: #007bff;
+    color: #ffd700;
     text-decoration: none;
 }
 
-
-
-
-/*  css dos projetos aqui, não esquecer o efeito cascata */
-
-
-
+.project-card a:hover {
+    text-decoration: underline;
+}
 
 .container-footer {
     background-color: #000000;
-    padding: 5rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +171,7 @@ header {
 }
 
 .container-footer h5 span {
-    color: #f9004d;
+    color: #ffd700;
 }
 
 .links-contatos {
