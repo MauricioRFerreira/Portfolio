@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    color: #f4f0ea;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.titulo-header {
+    color: #f4f0ea;
+    font-size: 2rem;
+    margin-left: 10rem;
+}
+
+.titulo-header span {
+    color: #f9004d;
+}
+
+.link-header {
+    display: flex;
+    gap: 2rem;
+    margin-right: 10rem;
+}
+
+.link-header a {
+    color: #f4f0ea;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.link-header a:hover {
+    color: #f9004d;
+}
+
+.container-sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10rem;
+}
+
+.container-sobre h1 {
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.container-sobre h1 span {
+    color: #f9004d;
+}
+
+.container-sobre p {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.container-sobre p span {
+    color: #f9004d;
+}
+
+.container-sobre img {
+    width: 900px;
+    height: 800px;
+    margin-top: 10rem;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10rem;
+    gap: 20rem;
+}
+
+.container-main h2 {
+    font-size: 3rem;
+}
+
+.container-main img {
+    width: 4000px;
+    height: 700px;
+    border-radius: 400px;
+}
+
+.projects-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.projects-section h2 {
+    margin-bottom: 5rem;
+    color: #f9004d;
+    font-size: 50px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 1rem;
+    text-align: left;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin: 0.5rem 0;
+}
+
+.project-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.project-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+
+
+/*  css dos projetos aqui, não esquecer o efeito cascata */
+
+
+
+
+.container-footer {
+    background-color: #000000;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-footer h5 {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.container-footer h5 span {
+    color: #f9004d;
+}
+
+.links-contatos {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.redes-sociais {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s;
+}
+
+.redes-sociais:hover {
+    transform: scale(1.2);
+}
