@@ -97,11 +97,11 @@ header {
 }
 
 .container-main h2 {
-    font-size: 2rem;
+    font-size: 25px;
 }
 
 .container-main img {
-    width: 3000px;
+    width: 5000px;
     height: 500px;
     border-radius: 400px;
 }
@@ -188,4 +188,56 @@ header {
 
 .redes-sociais:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 932px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .titulo-header {
+        font-size: 1.5rem;
+        margin: 0.5rem auto;
+    }
+
+    .container-sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-sobre p {
+        font-size: 25px;
+    }
+
+    .container-sobre img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .container-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-main img {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 3rem;
+        margin-top: 5rem;
+    }
+
+    .container-main h2 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 200%;
+        width: 400px;
+        margin-bottom: 5rem;
+        padding: 1.5rem;
+    }
 }
